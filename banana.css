@@ -1,0 +1,286 @@
+
+
+.btn{
+    background-color: rgb(12, 240, 133); 
+    border: solid green;
+}
+
+
+
+.header{
+    background: rgb(255, 226, 63);
+    width: 100%;
+    top: 0;
+    margin-bottom: -10px;
+    background-image: url("bubble.jpg")
+}
+
+.logo {
+    padding-top: 25px;
+    margin-left: 250px;
+    color: #fff;
+}
+
+.nav-button li {
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+
+.icon {
+    margin-right: 125px;
+    margin-bottom: -25px;
+
+}
+
+
+ul.socialIcons {
+    padding: 0;
+    text-align: right;
+  }
+  
+.socialIcons li {
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+.socialIcons li a {
+    display: block;
+    padding: 0.5em;
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    white-space: nowrap;
+    line-height: 1.5em; 
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+  }
+  
+.socialIcons li i {
+    margin-right: 1.5em;
+    margin-left: 0.1em;
+  }
+  
+.socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  
+.socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+  }
+
+.socialIcons .twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+  }
+  
+.socialIcons .instagram {
+    background-color: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+  }
+
+ 
+  .nav-button ul{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top:20px; 
+    padding-bottom:20px; 
+    padding-right: 20px;
+    margin-right: 100px;
+ }
+
+.textOverImage{
+    position: relative;
+    width: 300px;
+    height: 425px;
+    display: inline-block;
+    margin: 25px 70px;
+    background-position: center;
+    background-size: 100%;
+    transition: 0.5s;
+    border-radius:4px;
+    box-shadow:0 0 4px #000;
+    
+}
+
+.movie{
+    display: flex;
+    justify-content: center;
+}
+
+
+.textOverImage:hover{
+    background-size: 110%;
+}
+
+.nowplaying{
+    background-color: rgb(58, 0, 92);
+}
+
+.textOverImage::after{
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space:pre-wrap;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    padding:0 8px;
+    content: attr(data-text);
+    transition: 0.5s;
+    border-radius:4px;
+    box-shadow:0 0 4px #000;
+
+}
+
+.textOverImage:hover::after{
+    top: 0;
+    padding: 8px;
+    
+}
+
+
+.textOverImage:first-line{
+    color:#fff;
+    font-weight:bold;
+    font-size:1.5em;
+  }
+
+.site-footer{
+    background-color: rgb(58, 0, 92);
+    color: blue; 
+    padding-top: 30px;
+   
+}
+ 
+
+ .bottom-footer{
+     border-top: 1px solid #dfd3d3c5;
+     margin-top: 10px;
+     margin-left: -25px;
+     padding-top: 10px;
+     color: #b2b2b2;
+    
+ 
+ }     
+
+ .footer-nav{
+     text-align: right;
+     list-style: none;
+     margin-top: -25px;
+     margin-bottom: -30px;
+ }
+ .footer-nav li {
+    display: inline;
+    
+}
+
+.footer-nav li:not(:first-child):before{
+    content: '|';
+    padding: 0px 10px;
+}
+
+.footer-nav a:hover{
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+
+/*Check time*/
+.find{
+    width:100%; 
+    height:3500px;
+    padding:10px;
+    background-color:rgb(237, 222, 238);
+    font-weight: bold;
+}
+.check{
+    width:900px;
+    position: relative;
+    transform:translateX(30%);
+}
+.mposition{
+    background-color: rgb(255, 255, 136);
+    padding: 20px;
+    display: none;
+    margin:20px;
+} 
+appear:hover + .mposition {
+    display: block;
+    padding: 20px;
+    background:rgb(248, 211, 142);
+    border:solid;
+    width: 50%;
+    height: 300px;
+    line-height:30px;
+    position:fixed ;
+    left:30em;
+}
+.mi{
+    border:solid;
+    background:rgb(248, 211, 142);
+    float:right;
+}
+
+
+/*Movie inproduce*/
+.bigger{
+    width:100%;
+    height:500px;
+    z-index:1;
+}
+.smaller{
+    width:200px;
+    height:250px;
+    position: absolute;
+    top: 550px;
+    left:100px;
+    z-index:2;
+}
+.inproduce{
+    width:100%; 
+    padding:10px;
+    background-color:rgb(237, 222, 238);
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+.mdetails{
+    width:900px;
+    height:700px;
+    background-color:rgb(231, 255, 145);
+    line-height: 40px;
+    position: relative;
+    margin: auto;
+}
+.tm{
+    text-align: left;
+    position: relative;
+    left: 400px;
+}
+#warning{
+    height:100px;
+    width:100px;
+}
+.story{
+    width:100%; 
+    padding-left: 500px;
+    padding-right:500px;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-color:rgb(181, 182, 247);
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+

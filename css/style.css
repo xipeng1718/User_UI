@@ -1,0 +1,84 @@
+* {
+	font-family: "Microsoft JhengHei";
+}
+header .row:first-child .col-12 {
+	background-color: #e9eb87;
+	height: 200px;
+	width: 100%;
+}
+header .row:last-child .col-12 {
+	background-color: #e2dbbe;
+	height: 60px;
+}
+header .row:last-child .col-12 a {
+	color: black;
+	font-size: 28px;
+}
+.logo {
+	padding-top: 20px;
+}
+.logo span:nth-child(1) {
+	font-size: 32px;
+}
+.logo span:nth-child(2) {
+	font-size: 44px;
+}
+.logo span:nth-child(3) {
+	font-size: 28px;
+}
+.social_icon {
+	margin: 32px 20px 43px 20px;
+}
+.social_icon:first-child {
+	margin-left: 0px;
+}
+.social_icon:last-child {
+	margin-right: 0px;
+}
+.social_icon img {
+	width: 55px;
+	height: 55px;
+}
+.btn-top {
+	background-color: #d56f3e;
+	width: 110px;
+	height: 35px;
+	margin: 0px 12.5px;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.btn-top:first-child {
+	margin-left: 0px;
+}
+.btn-top:last-child {
+	margin-right: 0px;
+}
+.btn-top:hover {
+	border: 2px solid white;
+	background-color: #188fa7;
+	color: white;
+}
+.carousel-item img {
+	width: 100%;
+}
+.custom-navbar {
+	background-color: #e2dbbe;
+	height: 60px;
+}
+.custom-navbar a {
+	color: black;
+	font-size: 28px;
+	padding: 0px 30px;
+	vertical-align: middle;
+}
+footer .row {
+	background-color: #e9eb87;
+	height: 180px;
+	font-size: 24px;
+}
+footer a {
+	color: black;
+	text-decoration:underline;
+}

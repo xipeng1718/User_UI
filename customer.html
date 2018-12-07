@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="customer.css">  
+    <script>
+            function delRow(id) {
+                //取得要刪除的那一行
+                var row = document.getElementById(id);
+                var table = document.getElementById('mytb');
+                table.deleteRow(row.rowIndex);
+            }
+           
+        </script>   
+    
+</head>
+
+<body>
+    <h3>顧客訂單資料</h3>
+        <table style="border-top:3px black solid;border-bottom:3px black solid;" cellpadding="10" border='0'>
+            <tr>
+                    <td>姓名</td>
+                    <td>電影</td>
+                    <td>放映時間</td>
+                    <td>場次</td>
+                    <td>票種</td>
+                    <td>總金額</td>
+                    <td>訂票時間</td>  
+                    <td>操作</td> 
+                    <td><input type="button" value="刪除訂單" onclick="delRow('del1')"></td>         
+            </tr>
+            
+    </table>
+
+       
+</body>
+
+</html>

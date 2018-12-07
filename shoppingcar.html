@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="shoppingcar.css">
+    <script src="shoppingcar.js"></script>
+    <title>Shopping cart</title>
+</head>
+
+<body>
+
+    <div id="big_wrapper">
+        <div>
+            <div id="itemAddMsg">
+                <span id="cartMsg"> No item here... </span>
+            </div>
+            <div id="leftMsg" style="width:300px;">
+                <div id="newItem" style="float:left;">
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div id="rightMsg">
+                <div style="float : left;">
+                    <div id="tempcount">
+                        Item(s)：
+                        <span id="itemcount"> 0 </span> item
+                    </div>
+                    <div id="temptotal">
+                        Price：$
+                        <span id="subtotal"> 0 </span>
+                    </div>
+                </div>
+
+                <div style="float : left;">
+                    <span id="cartprocess">
+                        <a href="">Edit </a>
+                    </span>
+                </div>
+
+                <div style="float : left;">
+                    <span id="cartprocess">Balance</span>
+                </div>
+
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <hr>
+        <div id="picList">
+            <!--Part1起點-->
+            <ul>
+                <li>
+                    <div>
+                        <img src="001.JPG">
+                        <br> Pic1
+                    </div>
+
+                    <div>
+                        Price: 250
+                    </div>
+
+                    <div>
+                        <span id="PIC001" class="subutton">
+                            Add cart
+                            <input type="hidden" value="Pic1:001.JPG:250">
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="002.JPG">
+                        <br> Pic2
+                    </div>
+
+                    <div>
+                        Price: 280
+                    </div>
+
+                    <div>
+                        <span id="PIC002" class="subutton">
+                            Add cart
+                            <input type="hidden" value="Pic2:002.JPG:280">
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="003.JPG">
+                        <br> Pic3
+                    </div>
+
+                    <div>
+                        Price: 300
+                    </div>
+
+                    <div>
+                        <span id="PIC003" class="subutton">
+                            Add cart
+                            <input type="hidden" value="Pic3:003.JPG:300">
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="004.JPG">
+                        <br> Pic4
+                    </div>
+
+                    <div>
+                        Price: 350
+                    </div>
+
+                    <div>
+                        <span id="PIC004" class="subutton">
+                            Add cart
+                            <input type="hidden" value="Pic4:004.JPG:350">
+                        </span>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <!--Part1終點-->
+
+    </div>
+</body>
+
+</html>
